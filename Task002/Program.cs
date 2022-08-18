@@ -12,5 +12,6 @@ while (a != 0)
     result = result + a % 10;
     a = a / 10;
 }
-Console.WriteLine(result);
+
+Console.WriteLine($"Сумма цифр введенного числа равна {result}");
 
